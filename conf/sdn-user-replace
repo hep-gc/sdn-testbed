@@ -1,0 +1,28 @@
+# users for the SDN testbed
+## version "13.2-20131003_opus_exdc.1 [dc-builder]";
+system {
+    login {
+        replace: user igable {
+            full-name "Ian Gable";
+            uid 2010;
+            class super-user;
+            authentication {
+                ssh-rsa "ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEArCq5+hUgS0UVsgZ+U/u12Fi2c+iOFimsfcv8JYODraSCjRSslJb110fLD6NPDk/8xm2C2gxqBar8tK2zZaftS4LYwtTY/8qMGCyf5O+8uCVuJztUt3V3m9TtAAp8pKX6aqhASOOW/IFfkodbt/6XwjGiCf5QPs8cHdh7S4zR4dJ9N154uDQkIs2meuX/SYZktkRz6qbo0pYceGZTh8TV5lGYUN6iZefV40lx/p+3BlRmC7NcaG+HGf4KpczHpofgp096sSoiIKlZm4rpcNxNMnNPLoCCP6w2eRDS1V7hDVIO2rF1i+OrkgEDPqf1dx/Q3911NcbawwdaS/ssB+jPFw== igable@sabadoo.phys.UVic.CA";
+            }
+        }
+        replace: user ysavard {
+            full-name "Yvan Savard";
+            uid 2011;
+            class super-user;
+        }
+        replace: user acp {
+            full-name "Alvaro Pereira";
+            uid 2012;
+            class super-user;
+            authentication {
+                ssh-rsa "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDiVHz1JJYBnZ/dMVZhkkaKSDFgnUNEqZVW1y4ejSVu5WZa2E8nc4FR0WRLERC057dDZngRgaX82CpQqGSAxLkjqx7655sGYn4M9UizW/IXin7QvFaqueqVin1ikA17m8r98zY3Wfy1o7yW8WKDDTMJa4xwAmCU7QRFUaL3IcAzAAQDPavJMJe0ZVBTxdEEaPDrC1hMpYrGF8bp8AUBt53/dCIbeOtbwkr0eQlgjPoQANzoRuxIIKKvExsxXRBp3Xhaj8VjNnOXoSsUHMsHNrH/gfCzt5T3M/5TNSaLYeP25+MRYoZHeWkRaAeX4oEDcoEFYNd3oEuqfPhZi7JHIfNz acp@host-199.116.232.171.cybera.ca";
+            }
+        }
+    }
+}
+
