@@ -16,6 +16,6 @@ if ! diff default-controller-replace default-controller-new > /dev/null ; then
 	echo "configure"
 	echo "load replace default-controller-replace"
 	echo "commit check"
-	echo 'commit comment "automated rreplacement of the controller"'
+	echo 'commit comment "automated replacement of the OF controller address"'
 } | /usr/sbin/cli
 fi
