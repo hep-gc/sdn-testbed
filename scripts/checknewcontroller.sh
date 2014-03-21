@@ -14,7 +14,7 @@ if ! diff default-controller-replace default-controller-new > /dev/null ; then
 	cp default-controller-new default-controller-replace
 {
 	echo "configure"
-	echo "load replace sdn-pull/default-controller-replace"
+	echo "load replace default-controller-replace"
 	echo "commit check"
 	echo 'commit comment "automated rreplacement of the controller"'
 } | /usr/sbin/cli
