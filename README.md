@@ -57,8 +57,7 @@ Pushing a new Controller Config with Git
 
 All the switches configured to pull the controller config via the cron job can be pointed to a 
 new controller by making a git commit to the [default-controller-replace][2]. You can do this by
-cloning the repository making a modification and pushing the results back to github. A repository 
-post commit [webhook][4] will copy the configuration files to [sdnfiles.hepnetcanada.ca][3]. For example
+cloning the repository making a modification and pushing the results back to github. For example
 
     git clone git@github.com:hep-gc/sdn-testbed.git
     cd sdn-testbed
@@ -66,6 +65,7 @@ post commit [webhook][4] will copy the configuration files to [sdnfiles.hepnetca
     git commit -a -m "changing the default controller"
     git push origin master
 
+A repository post commit [webhook][4] will copy the configuration files to [sdnfiles.hepnetcanada.ca][3]. 
 Within 5 minutes all the switches pulling the configuration will change to the new controller.
 
 
