@@ -23,6 +23,15 @@ system {
                 ssh-rsa "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDiVHz1JJYBnZ/dMVZhkkaKSDFgnUNEqZVW1y4ejSVu5WZa2E8nc4FR0WRLERC057dDZngRgaX82CpQqGSAxLkjqx7655sGYn4M9UizW/IXin7QvFaqueqVin1ikA17m8r98zY3Wfy1o7yW8WKDDTMJa4xwAmCU7QRFUaL3IcAzAAQDPavJMJe0ZVBTxdEEaPDrC1hMpYrGF8bp8AUBt53/dCIbeOtbwkr0eQlgjPoQANzoRuxIIKKvExsxXRBp3Xhaj8VjNnOXoSsUHMsHNrH/gfCzt5T3M/5TNSaLYeP25+MRYoZHeWkRaAeX4oEDcoEFYNd3oEuqfPhZi7JHIfNz acp@host-199.116.232.171.cybera.ca";
             }
         }
+        replace: user ttam {
+            full-name "Thomas Tam";
+            uid 2013;
+            class super-user;
+            authentication {
+                ssh-rsa "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDTWHxTQWJC9B4V9c6Um0sOVkBsrqJwxTKtPxHnuKWN1g7rUs65l9q20jlIMqnWvp8Uhr7T7cbMGsKV6XaH7z0f2UOh5y1QsC3uVAMYfiO20A9aviQbIlswqqCmPJvdWR3uv7rdm545T9M7dmFCB27egLNQwY76Ft/NSW7s4ZmUj1DJQtJnzxMIutXJ9rFczDvY5dqhRa/DIRZ/1FQ8L1uQfaXIfal9IZhJWK/gNEv4QnV/evh2q21ox7zDIyuXLsqSgCcKIbP58WDGLQL6kME4HcKD1wAjxviooK1G9FlbCE6Y9El7n1aGsYGpFJkfasd2UgjlBZheVedqnAOvCJVD ttam@localhost";
+            }
+        }
+
     }
 }
 
