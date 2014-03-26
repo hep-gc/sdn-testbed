@@ -4,7 +4,7 @@ protocols {
     openflow {
         switch SDNTestbed {
             replace: controller {
-                address 199.116.232.27;
+                address 199.116.232.26;
             }
         }
     }
