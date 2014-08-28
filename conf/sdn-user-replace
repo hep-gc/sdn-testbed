@@ -10,22 +10,17 @@ system {
                 ssh-rsa "ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEArCq5+hUgS0UVsgZ+U/u12Fi2c+iOFimsfcv8JYODraSCjRSslJb110fLD6NPDk/8xm2C2gxqBar8tK2zZaftS4LYwtTY/8qMGCyf5O+8uCVuJztUt3V3m9TtAAp8pKX6aqhASOOW/IFfkodbt/6XwjGiCf5QPs8cHdh7S4zR4dJ9N154uDQkIs2meuX/SYZktkRz6qbo0pYceGZTh8TV5lGYUN6iZefV40lx/p+3BlRmC7NcaG+HGf4KpczHpofgp096sSoiIKlZm4rpcNxNMnNPLoCCP6w2eRDS1V7hDVIO2rF1i+OrkgEDPqf1dx/Q3911NcbawwdaS/ssB+jPFw== igable@sabadoo.phys.UVic.CA";
             }
         }
-        replace: user ysavard {
-            full-name "Yvan Savard";
-            uid 2011;
-            class super-user;
-        }
-        replace: user acp {
-            full-name "Alvaro Pereira";
-            uid 2012;
-            class super-user;
-            authentication {
-                ssh-rsa "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDiVHz1JJYBnZ/dMVZhkkaKSDFgnUNEqZVW1y4ejSVu5WZa2E8nc4FR0WRLERC057dDZngRgaX82CpQqGSAxLkjqx7655sGYn4M9UizW/IXin7QvFaqueqVin1ikA17m8r98zY3Wfy1o7yW8WKDDTMJa4xwAmCU7QRFUaL3IcAzAAQDPavJMJe0ZVBTxdEEaPDrC1hMpYrGF8bp8AUBt53/dCIbeOtbwkr0eQlgjPoQANzoRuxIIKKvExsxXRBp3Xhaj8VjNnOXoSsUHMsHNrH/gfCzt5T3M/5TNSaLYeP25+MRYoZHeWkRaAeX4oEDcoEFYNd3oEuqfPhZi7JHIfNz acp@host-199.116.232.171.cybera.ca";
-            }
-        }
         replace: user ttam {
             full-name "Thomas Tam";
             uid 2013;
+            class super-user;
+            authentication {
+                ssh-rsa "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDTWHxTQWJC9B4V9c6Um0sOVkBsrqJwxTKtPxHnuKWN1g7rUs65l9q20jlIMqnWvp8Uhr7T7cbMGsKV6XaH7z0f2UOh5y1QsC3uVAMYfiO20A9aviQbIlswqqCmPJvdWR3uv7rdm545T9M7dmFCB27egLNQwY76Ft/NSW7s4ZmUj1DJQtJnzxMIutXJ9rFczDvY5dqhRa/DIRZ/1FQ8L1uQfaXIfal9IZhJWK/gNEv4QnV/evh2q21ox7zDIyuXLsqSgCcKIbP58WDGLQL6kME4HcKD1wAjxviooK1G9FlbCE6Y9El7n1aGsYGpFJkfasd2UgjlBZheVedqnAOvCJVD ttam@localhost";
+            }
+        }
+        replace: user illtm {
+            full-name "Alex Valiushko";
+            uid 2014;
             class super-user;
             authentication {
                 ssh-rsa "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDTWHxTQWJC9B4V9c6Um0sOVkBsrqJwxTKtPxHnuKWN1g7rUs65l9q20jlIMqnWvp8Uhr7T7cbMGsKV6XaH7z0f2UOh5y1QsC3uVAMYfiO20A9aviQbIlswqqCmPJvdWR3uv7rdm545T9M7dmFCB27egLNQwY76Ft/NSW7s4ZmUj1DJQtJnzxMIutXJ9rFczDvY5dqhRa/DIRZ/1FQ8L1uQfaXIfal9IZhJWK/gNEv4QnV/evh2q21ox7zDIyuXLsqSgCcKIbP58WDGLQL6kME4HcKD1wAjxviooK1G9FlbCE6Y9El7n1aGsYGpFJkfasd2UgjlBZheVedqnAOvCJVD ttam@localhost";
